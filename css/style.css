@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width:auto;
+    height: 120px;
+    padding-left: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    margin: 0 50px;
+}
+
+.navbar a{
+    color: black;
+    font-weight: 700;
+}
+
+.branding h1{
+color: red;
+font-weight: 900;
+font-size: 60px;
+border: 2px solid red;
+padding: 7px 7px;
+cursor: pointer;
+}
+
+.navbar a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.current a{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.content{
+    width: 65%;
+    max-width: 450px;
+    float: left;
+    margin-top: 100px;
+}
+
+.content p{
+    font-size: 50px;
+    line-height: 1.2em;
+    
+}
+
+.content span{
+    color: red;
+}
+
+.contact{
+    width: 150px;
+    padding: 7px 20px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.contact a{
+    color: white;
+    font-weight: 900;
+}
+
+.contact a:hover{
+    color: black;
+}
+
+.laptop{
+    width: 400px;
+    height: 300px;
+    max-width: 450px;
+    float: right;
+    margin-top: 100px;
+}
+
+.page{
+    padding: 40px 170px;
+}
+
+
+.about{
+    width: 200px;
+    max-width: 450px;
+    float: left;
+    margin-top: 100px;
+}
+
+.about p{
+    font-size: 50px;
+    line-height: 1.4em;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.web{
+    width: 500px;
+    height: 350px;
+    float: right;
+    margin-top: 80px;
+}
+
+.contacts{
+    width: 200px;
+    max-width: 450px;
+    float: left;
+    margin-top: 120px;
+}
+
+.contacts p{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 2em;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.message{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-top: 70px;
+}
+
+.projects{
+    width: 200px;
+    max-width: 450px;
+    float: left;
+    margin-top: 100px;
+}
+
+.projects p{
+    font-size: 50px;
+    line-height: 1.4em;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.frontend{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-top: 80px; 
+}
+
+
